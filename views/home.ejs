@@ -8,12 +8,9 @@
 </head>
 <body>
     <h1>Upload file to IPFS</h1>
-    <form action="/uploadFile" method="POST" enctype="multipart/form-data">
-        <label>Filename</label>
-        <input type="text" name="fileName">
-        <br><br>
+    <form action="/upload-file" method="POST" enctype="multipart/form-data">
         <label>Upload File</label>
-        <input type="file" name="file">
+        <input type="file" name="myfile">
         <br><br>
         <input type="submit" value="Submit">
     </form>
