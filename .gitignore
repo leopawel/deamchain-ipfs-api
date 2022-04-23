@@ -1,0 +1,6 @@
+.vscode
+files
+node_modules
+yarn.lock
+.env
+.env.*
